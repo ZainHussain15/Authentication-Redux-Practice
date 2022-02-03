@@ -1,0 +1,55 @@
+.Login {
+  margin: 5rem auto;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+  width: 25rem;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  background-color: #f4f0fa;
+}
+
+.control {
+  margin-bottom: 0.5rem;
+}
+
+.control label {
+  display: block;
+  color: #616161;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.control input {
+  display: block;
+  color: #616161;
+  width: 20rem;
+  /* margin: auto; */
+  border-radius: 4px;
+  padding: 0.25rem;
+  border: 1px solid #ccc;
+}
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #b864da;
+  border: none;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: #7b3896;
+}
+
+.button:active {
+  background-color: #413446;
+}
+
+.button:disabled {
+  background-color: darkgray;
+}

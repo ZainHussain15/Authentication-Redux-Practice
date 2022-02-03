@@ -1,0 +1,46 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  padding: 1rem;
+}
+form {
+  display: flex;
+  /* padding-top: 100px;
+  padding-bottom: 100px; */
+  gap: 20px;
+}
+
+form td:last-child {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form * {
+  font-size: 20px;
+}
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: #3e8e59;
+}
+
+.button:active {
+  background-color: #828e3e;
+}
+
+.button:disabled {
+  background-color: darkgray;
+}
